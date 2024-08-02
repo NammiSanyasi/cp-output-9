@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cp-output';
+
+  /*ReceivedFromTheChild!:string;
+
+  receive(event:string){
+     console.log(event)
+     this.ReceivedFromTheChild=event
+
+  }*/
+
+
+  ReceivedFromTheChild!:string;
+
+  receive(event:string){
+     console.log(event)
+     this.ReceivedFromTheChild=event;
+   }
 }
